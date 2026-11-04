@@ -2,6 +2,10 @@
 
 An English-interface, Traditional Chinese learning prototype for adult learners. Working title; branding and content are open for review.
 
+Try it: https://colinkristianti.github.io/reading-paths/
+
+See [QA.md](QA.md) for completed checks and remaining limits.
+
 ## What works
 
 - Optional six-question starting check, with an explicit non-certification notice and manual stage choice.
@@ -17,7 +21,7 @@ Only five character previews and four quizzes are supplied. They demonstrate the
 
 ## Data principles
 
-Select characters by **character level 1, 1*, 2, 2*, 3, 3*** first. Verify dictionary readings independently. Attach **word levels 1 through 4*** afterward. A missing in-scope word must never remove a qualifying character or a dictionary reading.
+Select characters by character levels `1, 1*, 2, 2*, 3, 3*` first. Verify dictionary readings independently. Attach word levels `1 through 4*` afterward. A missing in-scope word must never remove a qualifying character or a dictionary reading.
 
 The independent audit of 801 TBCL character rows found 176 broad dictionary research candidates, requiring further semantic and teaching review. These are not 176 approved lessons. Full evidence is delivered separately in the research workbook; the public learner site does not expose the unreviewed research list.
 
