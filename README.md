@@ -1,10 +1,20 @@
-# Reading Paths · 一字多讀
+# Reading Paths · 一字多讀 — mobile-first v2
 
 An English-interface, Traditional Chinese learning prototype for adult learners. Working title; branding and content are open for review.
 
-Try it: https://colinkristianti.github.io/reading-paths/
+Public v1: https://colinkristianti.github.io/reading-paths/
+
+The mobile-first v2 source in this folder is not published yet. See [RELEASE-STATUS.md](RELEASE-STATUS.md). For a standalone local review file, run `node build-preview.mjs`; it creates `../output/Reading_Paths_手機版_v2_本機預覽.html`. Open that file in Chrome. Its learning records are independent of the public site. It includes the two available original recordings and uses system fonts so the interface can open offline.
 
 See [QA.md](QA.md) for completed checks and remaining limits.
+
+## Mobile-first learning
+
+The learning screen shows one reading, word or sentence at a time. A fixed bottom Next button explains the next action; Back returns one card. Lesson position is saved per browser. After the character check, the primary action continues to the next character or the stage review. Phone layouts come first; wider screens keep the same focused reading column.
+
+Character and word play buttons are configured to use whole original MOE recordings. Currently, only the two 看 recordings are included locally; the build is configured to download and validate the remaining files before publishing. Sentences and words without recordings use the device’s exact Taiwan Mandarin (`zh-TW`) voice. If no Taiwan voice exists, the app explains how to add one; it never silently switches to another accent. Character readings without a recording never use isolated-character TTS guesswork. Speech synthesis and recording metadata still require content-owner listening review.
+
+Progress separates overall practice accuracy (all practice answers including repeats), first-attempt accuracy (one first answer per question), and average completed character-quiz percentage (includes retakes, excludes stage/review/placement checks). Earlier v1 best scores and records are retained; the new quiz average begins with newly recorded complete quizzes.
 
 ## What works
 
@@ -29,7 +39,9 @@ The two Chinese sentence examples are verbatim COCT observations, with only corp
 
 ## Files and checks
 
-`dist/` is the whole website. Paths are relative and navigation uses hash routes, so GitHub project Pages work without a base-path rebuild. No package installation or build is needed.
+`dist/` is the whole deployed website. `audio-sources.json` records official dictionary headword/reading matches and candidate source URLs; `prepare-audio.mjs` downloads whole MP3 assets during the normal Pages build, checks HTTP responses and MPEG headers, and writes a provenance manifest. All ten character reading files must succeed before deployment; unavailable word files use the strictly Taiwan-locale device voice. This build makes no paid API calls or API-key requests.
+
+`dist/` is the whole website. Paths are relative and navigation uses hash routes, so GitHub project Pages work without a base-path rebuild. No package installation is needed. Audio preparation requires network access to the official MOE host during the GitHub build.
 
 Run `node tests.mjs` and `node --check dist/app.mjs`. Serve `dist/` with any static server for local development. ES modules require HTTP(S), rather than double-clicking a file URL.
 
