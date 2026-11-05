@@ -1,0 +1,38 @@
+{
+  "reading:kan-4": {
+    "src": "./audio/2562.mp3",
+    "source": "教育部《國語辭典簡編本》",
+    "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18436&q=1",
+    "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2562.mp3",
+    "dictionaryId": "2562",
+    "zhuyin": "ㄎㄢˋ",
+    "pinyin": "kàn",
+    "status": "downloaded",
+    "sha256": "8d023dd771c5a9432440f95f804d22ba142ae8e455223c0ba5a9599b88b08a59",
+    "bytes": 57674
+  },
+  "word:kan-4:看": {
+    "src": "./audio/2562.mp3",
+    "source": "教育部《國語辭典簡編本》",
+    "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18436&q=1",
+    "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2562.mp3",
+    "dictionaryId": "2562",
+    "zhuyin": "ㄎㄢˋ",
+    "pinyin": "kàn",
+    "status": "downloaded",
+    "sha256": "8d023dd771c5a9432440f95f804d22ba142ae8e455223c0ba5a9599b88b08a59",
+    "bytes": 57674
+  },
+  "reading:kan-1": {
+    "src": "./audio/2550.mp3",
+    "source": "教育部《國語辭典簡編本》",
+    "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18398&q=1",
+    "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2550.mp3",
+    "dictionaryId": "2550",
+    "zhuyin": "ㄎㄢ",
+    "pinyin": "kān",
+    "status": "downloaded",
+    "sha256": "6e157d364aa4cfd4cc60dd36dcbd4513a3a9afe12958a0fbbd75f02769811ec7",
+    "bytes": 56507
+  }
+}
