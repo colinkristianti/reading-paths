@@ -1,3 +1,13 @@
+# 手機版 v2 發布後確認 · 2026-11-05
+
+GitHub Actions 主分支 run 41948473019：prepare 與 deploy 全部成功。部署 URL：https://colinkristianti.github.io/reading-paths/ 。
+
+Chrome 公開頁面實際確認新版首頁「A little learning. One clear next step.」、Learn／Review／Progress 導覽；進入好字 1/10 字音卡，播放按鈕顯示啟動，之後停止並返回首頁。未新增測驗作答。這是公開頁面與播放控制的基本確認，尚非手機實機／全流程或人工聽音審定。
+
+建置音訊：十個 MP3／十四個播放項目可用，二十個複詞網址 404 採臺灣裝置語音備援。下載的建置 ZIP 與每個 MP3 均已依 SHA-256 及長度核對，並同步本機。
+
+---
+
 # 手機版 v2 驗證紀錄 · 2026-11-05
 
 新版目前只有本機來源與單檔預覽，尚未部署。完整狀態見 RELEASE-STATUS.md。
@@ -35,3 +45,9 @@ GitHub Actions 已完成實際部署及檢查；第一次在Pages尚未啟用前
 尚未驗證／尚未完成：手機實機、跨瀏覽器與完整輔助科技測試、備份檔案在瀏覽器內的完整匯入匯出往返（資料序列化已測）、正式分級效度、長期學習成效、完整題庫與句庫、音訊、雲端帳號與跨裝置同步。
 
 本機無法開啟localhost server（執行環境不允許監聽port），因此畫面與流程驗證直接使用GitHub Pages。顯示與字級測試後已將一般瀏覽器偏好恢復為中／拼音；獨立測試視窗已關閉。
+
+## v3 verification — 2026-11-05
+
+Passed source/domain/audio/controller checks: 355 unique imported items (320 + 15 + 20); 64 complete 5-item original groups; original answer preservation; matching; key masking before response; 7 known invalid/missing keys unscored; listening gates; dictionary narration excluded; exact Taiwan locale; no guessed isolated character; cancellation; old records restored with new empty arrays; draft results excluded from normal metrics and unlocks; first-time Profile → 20 starting items → manually chosen stage → Retake entry → mixed 5-item draft set → separate history. Standalone preview modules load in a stub DOM.
+
+Browser observation: Chrome opened the first v3 preview with four menus. Subsequent navigation remained on old content, reload became blank, and native automation timed out. The final single-script preview build was not visually verified. Phone dimensions, large text layout, actual device voices and human pronunciation checks remain pending. No v3 deployment was made.

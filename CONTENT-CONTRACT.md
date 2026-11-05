@@ -22,3 +22,9 @@
 
 
 手機版音訊欄位：每音 reading:<reading_id>、每詞 word:<reading_id>:<詞形>，不可只以字形當音訊鍵。音訊需有 src、來源／授權、字詞號、對應注音／拼音及聽審狀態。例句可另外提供臺灣華語完整錄音；未提供時以裝置的臺灣華語語音朗讀，無該語音則明確提示。不得為了方便將另一口音標成臺灣口音。
+
+## v3 separate draft banks
+
+`question-bank.mjs` preserves 320 original items, 15 worksheet revisions and 20 starting-check items. These records are team drafts, not a reviewed course inventory. Each retains source URL/row, original wording/key, fingerprint and known flags. Missing keys and the known 多 duó items are unscored; no version borrows keys from another version. Draft activity uses `teamAttempts`, `teamHistory`, and `startingChecks`, never normal `attempts`, `lessons` or `stagePasses`.
+
+Source authored practice sentences are never labelled COCT quotations. Listening tasks require the prompt to start or an explicit unscored written preview. Isolated-sound tasks with no exact recording stay pending. Browser speech is an unvalidated device preview. Optional approved clips use `clean-audio-manifest.json`; the original MOE dictionary narration is excluded at playback.

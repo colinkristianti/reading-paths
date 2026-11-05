@@ -1,30 +1,9 @@
-# 手機版 v2 交接狀態 · 2026-11-05
+# Release status — 2026-11-05
 
-本機新版程式與單檔預覽已建立；GitHub Pages 仍是先前公開的 v1。本次尚未成功寫入 GitHub 或執行新版部署，不能把目前公開網址當成新版。
+Public site remains v2 at https://colinkristianti.github.io/reading-paths/ (main f92ceba40c5cf26cdcbad3235c1eb92df3174001).
 
-## 已實作
+v3 local implementation: four menus, 20 original starting items, 320 original quiz items and 15 separate revisions, free exact-Taiwan device speech with visible character word cues, dictionary narration excluded. No new AI audio generated.
 
-- 手機優先的單欄介面，一張只學一個讀音、詞或句子，固定底部下一步；大螢幕保留相同資訊順序。
-- 每個實際字音、詞、句子的播放鍵；切卡、離開頁面與切換設定時停止播放。
-- 續學位置、自選起點、逐級解鎖、自由探索、錯題 Review、瀏覽器本機 profile 與備份。
-- Overall accuracy：所有練習答對次數／所有練習作答次數，含重答，排除起點檢核。
-- Average quiz score：每次完成的「單字五題小測驗」百分比之平均，含重考，排除起點檢核、階段總複習與 Review。未有資料時顯示 —。
-- 小／中／大字級、拼音／注音／兩者／隱藏標音、減少動態與播放速度。
+Automated source/domain/audio/controller checks passed. Full phone visual QA and human pronunciation review pending. Native Chrome automation reloaded blank and then timed out. GitHub write integration previously returned 403; no v3 commit or deployment has been made.
 
-## 教材與聲音尚未齊備
-
-只有好、看、樂、長、行共五字預覽；好、樂、長、行有各五題小測驗；只有兩筆 COCT 原句候選。研究表中的 176 個廣義候選字尚未轉成審定課程。
-
-本機目前有看 kān／kàn 兩個教育部原始 MP3，完整保留原音檔與使用說明。34 個播放目標已比對官方詞條與完整注音，合計 30 個不同錄音 ID；另外的來源網址仍須實際下載驗證與人工聽校。不能把來源對照視為全數音檔下載完成。
-
-`prepare-audio.mjs` 為 GitHub Actions 一般建置步驟，下載官方完整原檔並檢查回應及 MPEG 格式；十個字音錄音缺任一個便停止部署。詞與句子的裝置合成語音只接受臺灣華語，裝置沒有該語音時會顯示提示。目前沒有固定的句子錄音。所有素材仍需組員做讀音與教學適切性審查。
-
-單檔預覽的學習狀態與正式站分開。它內嵌現有兩個錄音及官方授權 PDF，使用系統字體，無須 localhost 服務；部分播放仍需要裝置具有臺灣華語語音。
-
-## 尚未發布的原因
-
-GitHub 連接器對新分支及新增檔案均回傳 403 `Resource not accessible by integration`。一般 Chrome 的新 GitHub 頁面持續空白；瀏覽器測試另出現 native pipe closed、無視窗與擷取錯誤。這不是要求重新批准發布，先前公開發布授權仍有效。
-
-使用者已手動建立功能分支 `mobile-first-audio`，並已由 GitHub API 確認。新版檔案尚未成功上傳。預備流程是先將新版檔案上傳該分支，讓 Actions 測試並驗證音檔；成功後合併 main，再由 Pages 發布。`.github/workflows/pages.yml` 已準備此流程。尚未執行的 Actions 結果與尚未完成的手機實機、全流程音訊檢查，不可標成通過。
-
-驗證細節見 QA.md。舊版 ZIP 保留，新版另存，不覆寫既有研究資料與教材表。
+See V3-REVIEW.md for manual upload instructions. Existing Pages workflow still works with the replacement network-free prepare-audio.mjs.

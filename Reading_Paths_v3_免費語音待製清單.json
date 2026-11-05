@@ -1,0 +1,985 @@
+{
+  "generated": "2026-11-05",
+  "paidCalls": 0,
+  "notice": "No audio generated. Browser previews are unvalidated. Confirm source text and licensing before recording.",
+  "targets": [
+    {
+      "key": "reading:hao-3",
+      "kind": "character",
+      "text": "好",
+      "targetPinyin": "hǎo",
+      "targetZhuyin": "ㄏㄠˇ",
+      "deviceCue": "好像",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "word:hao-3:好",
+      "kind": "word",
+      "text": "好",
+      "targetPinyin": "hǎo",
+      "targetZhuyin": "ㄏㄠˇ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 42"
+    },
+    {
+      "key": "word:hao-3:好像",
+      "kind": "word",
+      "text": "好像",
+      "targetPinyin": "hǎoxiàng",
+      "targetZhuyin": "ㄏㄠˇ ㄒㄧㄤˋ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 452"
+    },
+    {
+      "key": "word:hao-3:最好",
+      "kind": "word",
+      "text": "最好",
+      "targetPinyin": "zuìhǎo",
+      "targetZhuyin": "ㄗㄨㄟˋ ㄏㄠˇ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 1022"
+    },
+    {
+      "key": "reading:hao-4",
+      "kind": "character",
+      "text": "好",
+      "targetPinyin": "hào",
+      "targetZhuyin": "ㄏㄠˋ",
+      "deviceCue": "愛好",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "word:hao-4:愛好",
+      "kind": "word",
+      "text": "愛好",
+      "targetPinyin": "àihào",
+      "targetZhuyin": "ㄞˋ ㄏㄠˋ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 1256"
+    },
+    {
+      "key": "word:hao-4:好奇",
+      "kind": "word",
+      "text": "好奇",
+      "targetPinyin": "hàoqí",
+      "targetZhuyin": "ㄏㄠˋ ㄑㄧˊ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 1927"
+    },
+    {
+      "key": "word:hao-4:好學",
+      "kind": "word",
+      "text": "好學",
+      "targetPinyin": "hàoxué",
+      "targetZhuyin": "ㄏㄠˋ ㄒㄩㄝˊ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 2139"
+    },
+    {
+      "key": "sentence:2017_001243:好奇",
+      "kind": "sentence",
+      "text": "女人好奇的問。",
+      "status": "COCT-suitability-and-audio-review-pending",
+      "source": "https://bcoct.naer.edu.tw/cqpweb/yl_2014_2024/"
+    },
+    {
+      "key": "reading:kan-4",
+      "kind": "character",
+      "text": "看",
+      "targetPinyin": "kàn",
+      "targetZhuyin": "ㄎㄢˋ",
+      "deviceCue": "看見",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "word:kan-4:看",
+      "kind": "word",
+      "text": "看",
+      "targetPinyin": "kàn",
+      "targetZhuyin": "ㄎㄢˋ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 58"
+    },
+    {
+      "key": "word:kan-4:看見",
+      "kind": "word",
+      "text": "看見",
+      "targetPinyin": "kànjiàn",
+      "targetZhuyin": "ㄎㄢˋ ㄐㄧㄢˋ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 271"
+    },
+    {
+      "key": "reading:kan-1",
+      "kind": "character",
+      "text": "看",
+      "targetPinyin": "kān",
+      "targetZhuyin": "ㄎㄢ",
+      "deviceCue": "",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "reading:le-4",
+      "kind": "character",
+      "text": "樂",
+      "targetPinyin": "lè",
+      "targetZhuyin": "ㄌㄜˋ",
+      "deviceCue": "快樂",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "word:le-4:快樂",
+      "kind": "word",
+      "text": "快樂",
+      "targetPinyin": "kuàilè",
+      "targetZhuyin": "ㄎㄨㄞˋ ㄌㄜˋ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 277"
+    },
+    {
+      "key": "word:le-4:可樂",
+      "kind": "word",
+      "text": "可樂",
+      "targetPinyin": "kělè",
+      "targetZhuyin": "ㄎㄜˇ ㄌㄜˋ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 687"
+    },
+    {
+      "key": "word:le-4:樂觀",
+      "kind": "word",
+      "text": "樂觀",
+      "targetPinyin": "lèguān",
+      "targetZhuyin": "ㄌㄜˋ ㄍㄨㄢ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 2254"
+    },
+    {
+      "key": "sentence:2019_000209:快樂",
+      "kind": "sentence",
+      "text": "但是，她自己快樂嗎？",
+      "status": "COCT-suitability-and-audio-review-pending",
+      "source": "https://bcoct.naer.edu.tw/cqpweb/yl_2014_2024/"
+    },
+    {
+      "key": "reading:yue-4",
+      "kind": "character",
+      "text": "樂",
+      "targetPinyin": "yuè",
+      "targetZhuyin": "ㄩㄝˋ",
+      "deviceCue": "音樂",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "word:yue-4:音樂",
+      "kind": "word",
+      "text": "音樂",
+      "targetPinyin": "yīnyuè",
+      "targetZhuyin": "ㄧㄣ ㄩㄝˋ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 576"
+    },
+    {
+      "key": "word:yue-4:音樂家",
+      "kind": "word",
+      "text": "音樂家",
+      "targetPinyin": "yīnyuèjiā",
+      "targetZhuyin": "ㄧㄣ ㄩㄝˋ ㄐㄧㄚ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 2595"
+    },
+    {
+      "key": "word:yue-4:樂團",
+      "kind": "word",
+      "text": "樂團",
+      "targetPinyin": "yuètuán",
+      "targetZhuyin": "ㄩㄝˋ ㄊㄨㄢˊ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 2621"
+    },
+    {
+      "key": "reading:chang-2",
+      "kind": "character",
+      "text": "長",
+      "targetPinyin": "cháng",
+      "targetZhuyin": "ㄔㄤˊ",
+      "deviceCue": "長短",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "word:chang-2:長",
+      "kind": "word",
+      "text": "長",
+      "targetPinyin": "cháng",
+      "targetZhuyin": "ㄔㄤˊ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 199"
+    },
+    {
+      "key": "word:chang-2:長短",
+      "kind": "word",
+      "text": "長短",
+      "targetPinyin": "chángduǎn",
+      "targetZhuyin": "ㄔㄤˊ ㄉㄨㄢˇ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 1988"
+    },
+    {
+      "key": "reading:zhang-3",
+      "kind": "character",
+      "text": "長",
+      "targetPinyin": "zhǎng",
+      "targetZhuyin": "ㄓㄤˇ",
+      "deviceCue": "長大",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "word:zhang-3:長大",
+      "kind": "word",
+      "text": "長大",
+      "targetPinyin": "zhǎngdà",
+      "targetZhuyin": "ㄓㄤˇ ㄉㄚˋ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 1011"
+    },
+    {
+      "key": "word:zhang-3:家長",
+      "kind": "word",
+      "text": "家長",
+      "targetPinyin": "jiāzhǎng",
+      "targetZhuyin": "ㄐㄧㄚ ㄓㄤˇ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 1792"
+    },
+    {
+      "key": "word:zhang-3:校長",
+      "kind": "word",
+      "text": "校長",
+      "targetPinyin": "xiàozhǎng",
+      "targetZhuyin": "ㄒㄧㄠˋ ㄓㄤˇ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 1817"
+    },
+    {
+      "key": "reading:xing-2",
+      "kind": "character",
+      "text": "行",
+      "targetPinyin": "xíng",
+      "targetZhuyin": "ㄒㄧㄥˊ",
+      "deviceCue": "旅行",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "word:xing-2:旅行",
+      "kind": "word",
+      "text": "旅行",
+      "targetPinyin": "lǚxíng",
+      "targetZhuyin": "ㄌㄩˇ ㄒㄧㄥˊ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 493"
+    },
+    {
+      "key": "word:xing-2:行李",
+      "kind": "word",
+      "text": "行李",
+      "targetPinyin": "xínglǐ",
+      "targetZhuyin": "ㄒㄧㄥˊ ㄌㄧˇ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 982"
+    },
+    {
+      "key": "word:xing-2:流行",
+      "kind": "word",
+      "text": "流行",
+      "targetPinyin": "liúxíng",
+      "targetZhuyin": "ㄌㄧㄡˊ ㄒㄧㄥˊ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 904"
+    },
+    {
+      "key": "reading:hang-2",
+      "kind": "character",
+      "text": "行",
+      "targetPinyin": "háng",
+      "targetZhuyin": "ㄏㄤˊ",
+      "deviceCue": "銀行",
+      "status": "needs-clean-recording-and-listening-review",
+      "source": "existing sample lesson"
+    },
+    {
+      "key": "word:hang-2:銀行",
+      "kind": "word",
+      "text": "銀行",
+      "targetPinyin": "yínháng",
+      "targetZhuyin": "ㄧㄣˊ ㄏㄤˊ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 575"
+    },
+    {
+      "key": "word:hang-2:行",
+      "kind": "word",
+      "text": "行",
+      "targetPinyin": "háng",
+      "targetZhuyin": "ㄏㄤˊ",
+      "status": "device-preview-only",
+      "source": "NAER wordlist row 451"
+    },
+    {
+      "key": "assessment:office-4e2d-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "zhōng",
+      "originalPrompt": "🔊 播放：zhōng\n A. 其中 ✅B. 猜中",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-4e00-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "yí",
+      "originalPrompt": "🔊 播放：yí\n A. 一下 ✅ B. 一點 C. 第一",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-4e0d-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "bú",
+      "originalPrompt": "🔊 播放：bú\n A. 不客氣 ✅ B. 不好意思 C. 不同",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-500b-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "gè",
+      "originalPrompt": "🔊 播放：gè\n A. 個子 ✅ B. 一個",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5152-3",
+      "kind": "assessment",
+      "text": "哪兒",
+      "targetPinyin": "nǎr",
+      "originalPrompt": "🔊 播放：nǎr\n A. 哪兒 ✅ B. 兒童 C. 兒子",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5206-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "fèn",
+      "originalPrompt": "🔊 播放：fèn\n A. 部分 ✅ B. 十分",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5427-3",
+      "kind": "assessment",
+      "text": "酒吧",
+      "targetPinyin": "jiǔbā",
+      "originalPrompt": "🔊 播放：jiǔbā\n A. 酒吧 ✅ B. 好吧",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-548c-3",
+      "kind": "assessment",
+      "text": "暖和",
+      "targetPinyin": "nuǎnhuo",
+      "originalPrompt": "🔊 播放：nuǎnhuo\n A. 和平 B. 暖和 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-54e5-3",
+      "kind": "assessment",
+      "text": "哥哥",
+      "targetPinyin": "gēge",
+      "originalPrompt": "🔊 播放：gēge\n A. 哥哥 ✅ B. 帥哥 C. 表哥",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-54ea-3",
+      "kind": "assessment",
+      "text": "哪裡",
+      "targetPinyin": "nǎlǐ",
+      "originalPrompt": "🔊 播放：nǎlǐ\n A. 哪裡 ✅ B. 天哪",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-591a-3",
+      "kind": "assessment",
+      "text": "多麼",
+      "targetPinyin": "duóme",
+      "originalPrompt": "🔊 播放：duóme\n A. 多麼 ✅ B. 許多",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-592a-3",
+      "kind": "assessment",
+      "text": "太陽",
+      "targetPinyin": "tàiyáng",
+      "originalPrompt": "🔊 播放：tàiyáng\n A. 太太 B. 太陽 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-597d-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "hào",
+      "originalPrompt": "🔊 播放：hào\n A. 好奇 ✅ B. 好像",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-59b9-3",
+      "kind": "assessment",
+      "text": "妹妹",
+      "targetPinyin": "mèimei",
+      "originalPrompt": "🔊 播放：mèimei\n A. 妹妹 ✅ B. 表妹 C. 弟妹",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-59d0-3",
+      "kind": "assessment",
+      "text": "小姐",
+      "targetPinyin": "xiǎojiě",
+      "originalPrompt": "🔊 播放：xiǎojiě\n A. 小姐 ✅ B. 姐姐",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5abd-3",
+      "kind": "assessment",
+      "text": "舅媽",
+      "targetPinyin": "jiùmā",
+      "originalPrompt": "🔊 播放：jiùmā\n A. 媽媽 B. 舅媽 ✅ C. 姨媽",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5b50-3",
+      "kind": "assessment",
+      "text": "子女",
+      "targetPinyin": "zǐnǚ",
+      "originalPrompt": "🔊 播放：zǐnǚ\n A. 兒子 B. 孩子 C. 子女 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5b57-3",
+      "kind": "assessment",
+      "text": "字典",
+      "targetPinyin": "zìdiǎn",
+      "originalPrompt": "🔊 播放：zìdiǎn\n A. 字幕 B. 名字 C. 字典 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5c11-3",
+      "kind": "assessment",
+      "text": "少女",
+      "targetPinyin": "shàonǚ",
+      "originalPrompt": "🔊 播放：shàonǚ\n A. 少女 ✅ B. 少數",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5f1f-3",
+      "kind": "assessment",
+      "text": "弟弟",
+      "targetPinyin": "dìdi",
+      "originalPrompt": "🔊 播放：dìdi\n A. 弟弟 ✅ B. 弟妹",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-661f-3",
+      "kind": "assessment",
+      "text": "星星",
+      "targetPinyin": "xīngxing",
+      "originalPrompt": "🔊 播放：xīngxing\n A. 明星 B. 星星 ✅ C. 星期",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-6709-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "yǒushíhou",
+      "originalPrompt": "🔊 播放：yǒushíhou\n A. 有一點 B. 沒有 C. 有時候 ✅",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-7238-3",
+      "kind": "assessment",
+      "text": "爸爸",
+      "targetPinyin": "bàba",
+      "originalPrompt": "🔊 播放：bàba\n A. 媽媽 B. 爸爸 ✅ C. 伯伯",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-7684-3",
+      "kind": "assessment",
+      "text": "的確",
+      "targetPinyin": "díquè",
+      "originalPrompt": "🔊 播放：díquè\n A. 目的 B. 的確 ✅ C. 真的",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-897f-3",
+      "kind": "assessment",
+      "text": "西瓜",
+      "targetPinyin": "xīguā",
+      "originalPrompt": "🔊 播放：xīguā\n A. 西瓜 ✅ B. 東西",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-89ba-3",
+      "kind": "assessment",
+      "text": "感覺",
+      "targetPinyin": "gǎnjué",
+      "originalPrompt": "🔊 播放：gǎnjué\n A. 感覺 ✅ B. 睡覺",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-8b1d-3",
+      "kind": "assessment",
+      "text": "感謝",
+      "targetPinyin": "gǎnxiè",
+      "originalPrompt": "🔊 播放：gǎnxiè\n A. 感謝 ✅ B. 謝謝",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-90fd-3",
+      "kind": "assessment",
+      "text": "首都",
+      "targetPinyin": "shǒudū",
+      "originalPrompt": "🔊 播放：shǒudū\n A. 首都 ✅ B. 都是",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-9ebc-3",
+      "kind": "assessment",
+      "text": "怎麼",
+      "targetPinyin": "zěnme",
+      "originalPrompt": "🔊 播放：zěnme\n A. 怎麼 ✅ B. 這麼 C. 什麼",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5730-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "de",
+      "originalPrompt": "🔊 播放：de\n A. 慢慢地 ✅ B. 地方",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5976-3",
+      "kind": "assessment",
+      "text": "奶奶",
+      "targetPinyin": "nǎinai",
+      "originalPrompt": "🔊 播放：nǎinai\n A. 奶茶 B. 牛奶 C. 奶奶 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5f97-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "dé",
+      "originalPrompt": "🔊 播放：dé\n A. 覺得 B. 記得 C. 得到 ✅",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-6559-3",
+      "kind": "assessment",
+      "text": "教室",
+      "targetPinyin": "jiàoshì",
+      "originalPrompt": "🔊 播放：jiàoshì\n A. 教書 B. 教室 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-6703-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "dāihuǐ",
+      "originalPrompt": "🔊 播放：dāihuǐ\n A. 待會 ✅ B. 社會",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-670d-3",
+      "kind": "assessment",
+      "text": "服務",
+      "targetPinyin": "fúwù",
+      "originalPrompt": "🔊 播放：fúwù\n A. 服務 ✅ B. 舒服",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-6a02-3",
+      "kind": "assessment",
+      "text": "樂團",
+      "targetPinyin": "yuètuán",
+      "originalPrompt": "🔊 播放：yuètuán\n A. 樂團 ✅ B. 樂觀",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-6c23-3",
+      "kind": "assessment",
+      "text": "冷氣",
+      "targetPinyin": "lěngqì",
+      "originalPrompt": "🔊 播放：lěngqì\n A. 冷氣 ✅ B. 運氣",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-70ba-3",
+      "kind": "assessment",
+      "text": "以為",
+      "targetPinyin": "yǐwéi",
+      "originalPrompt": "🔊 播放：yǐwéi\n A. 以為 ✅ B. 因為",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-7a7a-3",
+      "kind": "assessment",
+      "text": "空氣",
+      "targetPinyin": "kōngqì",
+      "originalPrompt": "🔊 播放：kōngqì\n A. 空氣 ✅ B. 有空",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-9084-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "huán",
+      "originalPrompt": "🔊 播放：huán\n A. 還是 B. 還書 ✅",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-9577-3",
+      "kind": "assessment",
+      "text": "長大",
+      "targetPinyin": "zhǎngdà",
+      "originalPrompt": "🔊 播放：zhǎngdà\n A. 長大 ✅ B. 長短",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-982d-3",
+      "kind": "assessment",
+      "text": "饅頭",
+      "targetPinyin": "mántou",
+      "originalPrompt": "🔊 播放：mántou\n A. 頭髮 B. 饅頭 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-4e86-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "le",
+      "originalPrompt": "🔊 播放：le\n A. 除了 ✅ B. 了解",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-4fbf-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "pián",
+      "originalPrompt": "🔊 播放：pián\n A. 便當 B. 隨便 C. 便宜 ✅",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5dee-3",
+      "kind": "assessment",
+      "text": "郵差",
+      "targetPinyin": "yóuchāi",
+      "originalPrompt": "🔊 播放：yóuchāi\n A. 郵差 ✅ B. 時差",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-61c9-3",
+      "kind": "assessment",
+      "text": "適應",
+      "targetPinyin": "shìyìng",
+      "originalPrompt": "🔊 播放：shìyìng\n A. 應該 B. 適應 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-7576-3",
+      "kind": "assessment",
+      "text": "當作",
+      "targetPinyin": "dàngzuò",
+      "originalPrompt": "🔊 播放：dàngzuò\n A. 便當 B. 當作 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-76f8-3",
+      "kind": "assessment",
+      "text": "相片",
+      "targetPinyin": "xiàngpiàn",
+      "originalPrompt": "🔊 播放：xiàngpiàn\n A. 互相 B. 相片 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-7a2e-3",
+      "kind": "assessment",
+      "text": "種類",
+      "targetPinyin": "zhǒnglèi",
+      "originalPrompt": "🔊 播放：zhǒnglèi\n A. 種類 ✅ B. 種樹",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-884c-3",
+      "kind": "assessment",
+      "text": "行李",
+      "targetPinyin": "xínglǐ",
+      "originalPrompt": "🔊 播放：xínglǐ\n A. 銀行 B. 行李 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-91cd-3",
+      "kind": "assessment",
+      "text": "重新",
+      "targetPinyin": "chóngxīn",
+      "originalPrompt": "🔊 播放：chóngxīn\n A. 重新 ✅ B. 重要",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-4f2f-3",
+      "kind": "assessment",
+      "text": "伯伯",
+      "targetPinyin": "bóbo",
+      "originalPrompt": "🔊 播放：bóbo\n A. 伯父 B. 伯母 C. 伯伯 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-723a-3",
+      "kind": "assessment",
+      "text": "爺爺",
+      "targetPinyin": "yéye",
+      "originalPrompt": "🔊 播放：yéye\n A. 奶奶 B. 伯伯 C. 爺爺 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-8655-3",
+      "kind": "assessment",
+      "text": "到處",
+      "targetPinyin": "dàochù",
+      "originalPrompt": "🔊 播放：dàochù\n A. 到處 ✅ B. 處理",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5047-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "jià",
+      "originalPrompt": "🔊 播放：jià\n A. 暑假 ✅ B. 假裝",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5319-3",
+      "kind": "assessment",
+      "text": "鑰匙",
+      "targetPinyin": "yàoshi",
+      "originalPrompt": "🔊 播放：yàoshi\n A. 湯匙 B. 鑰匙 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-53d4-3",
+      "kind": "assessment",
+      "text": "叔叔",
+      "targetPinyin": "shúshu",
+      "originalPrompt": "🔊 播放：shúshu\n A. 舅舅 B. 叔叔 ✅ C. 伯伯",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-59ca-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "jiějie",
+      "originalPrompt": "🔊 播放：jiějie\n A. 姊姊 ✅ B. 妹妹 C. 弟弟",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-80cc-3",
+      "kind": "assessment",
+      "text": "背景",
+      "targetPinyin": "bèijǐng",
+      "originalPrompt": "🔊 播放：bèijǐng\n A. 背包 B. 背景 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5207-3",
+      "kind": "assessment",
+      "text": "一切",
+      "targetPinyin": "yíqiè",
+      "originalPrompt": "🔊 播放：yíqiè\n A. 切水果 B. 切菜 C. 一切 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-59d1-3",
+      "kind": "assessment",
+      "text": "姑姑",
+      "targetPinyin": "gūgu",
+      "originalPrompt": "🔊 播放：gūgu\n A. 姑姑 ✅ B. 哥哥 C. 舅舅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-5a46-3",
+      "kind": "assessment",
+      "text": "外婆",
+      "targetPinyin": "wàipó",
+      "originalPrompt": "🔊 播放：wàipó\n A. 外婆 ✅ B. 婆婆 C. 老婆",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-6578-3",
+      "kind": "assessment",
+      "text": "數學",
+      "targetPinyin": "shùxué",
+      "originalPrompt": "🔊 播放：shùxué\n A. 數錢 B. 數學 ✅",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:office-8205-3",
+      "kind": "assessment",
+      "text": "舅舅",
+      "targetPinyin": "jiùjiu",
+      "originalPrompt": "🔊 播放：jiùjiu\n A. 舅舅 ✅ B. 叔叔 C. 伯伯",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416"
+    },
+    {
+      "key": "assessment:revisions-4e2d-3",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "zhōng",
+      "originalPrompt": "🔊 播放：zhōng\nA. 其中 ✅B. 猜中",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=1540295536"
+    },
+    {
+      "key": "assessment:revisions-597d-4",
+      "kind": "assessment",
+      "text": "正好",
+      "targetPinyin": "zhèng hǎo",
+      "originalPrompt": "🔊 播放：zhèng hǎo\nA. 最好\nB. 正好 ✅\nC. 還好D. 幸好",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=1540295536"
+    },
+    {
+      "key": "assessment:revisions-884c-4",
+      "kind": "assessment",
+      "text": "",
+      "targetPinyin": "zì xíng chē",
+      "originalPrompt": "播放音檔：zì xíng chē\n選：\nA. 不行\nB. 自行車\nC.人行道  \n",
+      "status": "needs-exact-recording",
+      "source": "https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=1540295536"
+    },
+    {
+      "key": "assessment:starting-11",
+      "kind": "assessment",
+      "text": "中間",
+      "targetPinyin": "zhōng jiān",
+      "originalPrompt": "🔊 播放：zhōng jiān\n\nA. 中國\nB. 中午\nC. 中間 ✅\nD. 中文",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026"
+    },
+    {
+      "key": "assessment:starting-12",
+      "kind": "assessment",
+      "text": "舒服",
+      "targetPinyin": "shūfu",
+      "originalPrompt": "🔊 播放：shūfu\n\nA. 服務\nB. 舒服 ✅\nC. 服裝\nD. 衣服",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026"
+    },
+    {
+      "key": "assessment:starting-13",
+      "kind": "assessment",
+      "text": "教室",
+      "targetPinyin": "jiào shì",
+      "originalPrompt": "🔊 播放：jiào shì\n\nA. 教書\nB. 教室 ✅\nC. 教學\nD. 教",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026"
+    },
+    {
+      "key": "assessment:starting-14",
+      "kind": "assessment",
+      "text": "樂團",
+      "targetPinyin": "yuè tuán",
+      "originalPrompt": "🔊 播放：yuè tuán\n\nA. 快樂\nB. 可樂\nC. 樂團 ✅\nD. 樂趣",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026"
+    },
+    {
+      "key": "assessment:starting-15",
+      "kind": "assessment",
+      "text": "背包",
+      "targetPinyin": "bēi bāo",
+      "originalPrompt": "🔊 播放：bēi bāo\n\nA. 背後\nB. 背景\nC. 背包 ✅\nD. 後背",
+      "status": "device-preview-only-unvalidated",
+      "source": "https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026"
+    }
+  ]
+}

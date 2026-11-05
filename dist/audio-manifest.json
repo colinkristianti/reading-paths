@@ -1,38 +1,330 @@
 {
-  "reading:kan-4": {
-    "src": "./audio/2562.mp3",
-    "source": "教育部《國語辭典簡編本》",
-    "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18436&q=1",
-    "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2562.mp3",
-    "dictionaryId": "2562",
-    "zhuyin": "ㄎㄢˋ",
-    "pinyin": "kàn",
-    "status": "downloaded",
-    "sha256": "8d023dd771c5a9432440f95f804d22ba142ae8e455223c0ba5a9599b88b08a59",
-    "bytes": 57674
+  "version": 2,
+  "source": "MOE Concised Mandarin Dictionary; official complete recordings",
+  "entries": {
+    "reading:hao-3": {
+      "src": "./audio/2727.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19419&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2727.mp3",
+      "dictionaryId": "2727",
+      "zhuyin": "ㄏㄠˇ",
+      "pinyin": "hǎo",
+      "bytes": 57119,
+      "sha256": "aacf2d8d1d469db71d263b301b8c786b11f3f94c1a6f145155632ce0362be76f",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "word:hao-3:好": {
+      "src": "./audio/2727.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19419&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2727.mp3",
+      "dictionaryId": "2727",
+      "zhuyin": "ㄏㄠˇ",
+      "pinyin": "hǎo",
+      "bytes": 57119,
+      "sha256": "aacf2d8d1d469db71d263b301b8c786b11f3f94c1a6f145155632ce0362be76f",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "reading:hao-4": {
+      "src": "./audio/2729.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19462&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2729.mp3",
+      "dictionaryId": "2729",
+      "zhuyin": "ㄏㄠˋ",
+      "pinyin": "hào",
+      "bytes": 56352,
+      "sha256": "9d625bc57f6c2018fcf9244574f66a651d76af8bc593d649cc7f5644bc5a84c7",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "reading:kan-4": {
+      "src": "./audio/2562.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18436&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2562.mp3",
+      "dictionaryId": "2562",
+      "zhuyin": "ㄎㄢˋ",
+      "pinyin": "kàn",
+      "bytes": 57674,
+      "sha256": "8d023dd771c5a9432440f95f804d22ba142ae8e455223c0ba5a9599b88b08a59",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "word:kan-4:看": {
+      "src": "./audio/2562.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18436&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2562.mp3",
+      "dictionaryId": "2562",
+      "zhuyin": "ㄎㄢˋ",
+      "pinyin": "kàn",
+      "bytes": 57674,
+      "sha256": "8d023dd771c5a9432440f95f804d22ba142ae8e455223c0ba5a9599b88b08a59",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "reading:kan-1": {
+      "src": "./audio/2550.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18398&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2550.mp3",
+      "dictionaryId": "2550",
+      "zhuyin": "ㄎㄢ",
+      "pinyin": "kān",
+      "bytes": 56507,
+      "sha256": "6e157d364aa4cfd4cc60dd36dcbd4513a3a9afe12958a0fbbd75f02769811ec7",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "reading:le-4": {
+      "src": "./audio/1755.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=13245&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/1755.mp3",
+      "dictionaryId": "1755",
+      "zhuyin": "ㄌㄜˋ",
+      "pinyin": "lè",
+      "bytes": 58736,
+      "sha256": "07988ac78d3db378473dc199a41f20d289504628fe75d3cd847e513af165a0d8",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "reading:yue-4": {
+      "src": "./audio/6530.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=44656&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/6530.mp3",
+      "dictionaryId": "6530",
+      "zhuyin": "ㄩㄝˋ",
+      "pinyin": "yuè",
+      "bytes": 57754,
+      "sha256": "66c074b5ac5c9c643a84fa4768930b5ed3dd1d78d14689427b4e00af6a629dbd",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "reading:chang-2": {
+      "src": "./audio/4757.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=32100&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/4757.mp3",
+      "dictionaryId": "4757",
+      "zhuyin": "ㄔㄤˊ",
+      "pinyin": "cháng",
+      "bytes": 60487,
+      "sha256": "aa5bc58885bdeab6f007072ab9cacac4f2d7377c3f64f6576fdee49a85f26ef1",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "word:chang-2:長": {
+      "src": "./audio/4757.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=32100&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/4757.mp3",
+      "dictionaryId": "4757",
+      "zhuyin": "ㄔㄤˊ",
+      "pinyin": "cháng",
+      "bytes": 60487,
+      "sha256": "aa5bc58885bdeab6f007072ab9cacac4f2d7377c3f64f6576fdee49a85f26ef1",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "reading:zhang-3": {
+      "src": "./audio/4453.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=30148&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/4453.mp3",
+      "dictionaryId": "4453",
+      "zhuyin": "ㄓㄤˇ",
+      "pinyin": "zhǎng",
+      "bytes": 63146,
+      "sha256": "6776ea8ac7c7235f0abd7970b910d1f48023a09e74cd3dd60ed70e858f06d23b",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "reading:xing-2": {
+      "src": "./audio/4097.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=28209&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/4097.mp3",
+      "dictionaryId": "4097",
+      "zhuyin": "ㄒㄧㄥˊ",
+      "pinyin": "xíng",
+      "bytes": 61336,
+      "sha256": "9a8fe8b057140c7f2a5088c2e582d95827d8087ae2ef630bec6a21e1649e6a95",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "reading:hang-2": {
+      "src": "./audio/2784.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19765&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2784.mp3",
+      "dictionaryId": "2784",
+      "zhuyin": "ㄏㄤˊ",
+      "pinyin": "háng",
+      "bytes": 57957,
+      "sha256": "39070425182add241b1e119590ceeb6cd8e23178ecc8f6c14b6e66e0ffe33b9f",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    },
+    "word:hang-2:行": {
+      "src": "./audio/2784.mp3",
+      "source": "教育部《國語辭典簡編本》",
+      "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=19765&q=1",
+      "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2784.mp3",
+      "dictionaryId": "2784",
+      "zhuyin": "ㄏㄤˊ",
+      "pinyin": "háng",
+      "bytes": 57957,
+      "sha256": "39070425182add241b1e119590ceeb6cd8e23178ecc8f6c14b6e66e0ffe33b9f",
+      "status": "downloaded-and-mpeg-validated",
+      "pronunciationReview": "pending-human-listening-review"
+    }
   },
-  "word:kan-4:看": {
-    "src": "./audio/2562.mp3",
-    "source": "教育部《國語辭典簡編本》",
-    "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18436&q=1",
-    "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2562.mp3",
-    "dictionaryId": "2562",
-    "zhuyin": "ㄎㄢˋ",
-    "pinyin": "kàn",
-    "status": "downloaded",
-    "sha256": "8d023dd771c5a9432440f95f804d22ba142ae8e455223c0ba5a9599b88b08a59",
-    "bytes": 57674
-  },
-  "reading:kan-1": {
-    "src": "./audio/2550.mp3",
-    "source": "教育部《國語辭典簡編本》",
-    "sourceEntry": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=18398&q=1",
-    "sourceUrl": "https://dict.concised.moe.edu.tw/sound/word/2550.mp3",
-    "dictionaryId": "2550",
-    "zhuyin": "ㄎㄢ",
-    "pinyin": "kān",
-    "status": "downloaded",
-    "sha256": "6e157d364aa4cfd4cc60dd36dcbd4513a3a9afe12958a0fbbd75f02769811ec7",
-    "bytes": 56507
-  }
+  "failures": [
+    {
+      "id": "272700015",
+      "keys": [
+        "word:hao-3:好像"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "539900003",
+      "keys": [
+        "word:hao-3:最好"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "576200012",
+      "keys": [
+        "word:hao-4:愛好"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "272900005",
+      "keys": [
+        "word:hao-4:好學"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "272900003",
+      "keys": [
+        "word:hao-4:好奇"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "256200019",
+      "keys": [
+        "word:kan-4:看見"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "259800008",
+      "keys": [
+        "word:le-4:快樂"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "250800010",
+      "keys": [
+        "word:le-4:可樂"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "175500010",
+      "keys": [
+        "word:le-4:樂觀"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "613200020",
+      "keys": [
+        "word:yue-4:音樂"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "613200022",
+      "keys": [
+        "word:yue-4:音樂家"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "653000005",
+      "keys": [
+        "word:yue-4:樂團"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "475700013",
+      "keys": [
+        "word:chang-2:長短"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "445300002",
+      "keys": [
+        "word:zhang-3:長大"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "311900034",
+      "keys": [
+        "word:zhang-3:家長"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "397200014",
+      "keys": [
+        "word:zhang-3:校長"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "217600007",
+      "keys": [
+        "word:xing-2:旅行"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "409700008",
+      "keys": [
+        "word:xing-2:行李"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "196200045",
+      "keys": [
+        "word:xing-2:流行"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "id": "614100011",
+      "keys": [
+        "word:hang-2:銀行"
+      ],
+      "error": "HTTP 404"
+    }
+  ]
 }

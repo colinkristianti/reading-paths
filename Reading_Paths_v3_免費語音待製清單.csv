@@ -1,0 +1,207 @@
+﻿"key","kind","text","targetPinyin","targetZhuyin","deviceCue","status","source","originalPrompt"
+"reading:hao-3","character","好","hǎo","ㄏㄠˇ","好像","needs-clean-recording-and-listening-review","existing sample lesson",""
+"word:hao-3:好","word","好","hǎo","ㄏㄠˇ","","device-preview-only","NAER wordlist row 42",""
+"word:hao-3:好像","word","好像","hǎoxiàng","ㄏㄠˇ ㄒㄧㄤˋ","","device-preview-only","NAER wordlist row 452",""
+"word:hao-3:最好","word","最好","zuìhǎo","ㄗㄨㄟˋ ㄏㄠˇ","","device-preview-only","NAER wordlist row 1022",""
+"reading:hao-4","character","好","hào","ㄏㄠˋ","愛好","needs-clean-recording-and-listening-review","existing sample lesson",""
+"word:hao-4:愛好","word","愛好","àihào","ㄞˋ ㄏㄠˋ","","device-preview-only","NAER wordlist row 1256",""
+"word:hao-4:好奇","word","好奇","hàoqí","ㄏㄠˋ ㄑㄧˊ","","device-preview-only","NAER wordlist row 1927",""
+"word:hao-4:好學","word","好學","hàoxué","ㄏㄠˋ ㄒㄩㄝˊ","","device-preview-only","NAER wordlist row 2139",""
+"sentence:2017_001243:好奇","sentence","女人好奇的問。","","","","COCT-suitability-and-audio-review-pending","https://bcoct.naer.edu.tw/cqpweb/yl_2014_2024/",""
+"reading:kan-4","character","看","kàn","ㄎㄢˋ","看見","needs-clean-recording-and-listening-review","existing sample lesson",""
+"word:kan-4:看","word","看","kàn","ㄎㄢˋ","","device-preview-only","NAER wordlist row 58",""
+"word:kan-4:看見","word","看見","kànjiàn","ㄎㄢˋ ㄐㄧㄢˋ","","device-preview-only","NAER wordlist row 271",""
+"reading:kan-1","character","看","kān","ㄎㄢ","","needs-clean-recording-and-listening-review","existing sample lesson",""
+"reading:le-4","character","樂","lè","ㄌㄜˋ","快樂","needs-clean-recording-and-listening-review","existing sample lesson",""
+"word:le-4:快樂","word","快樂","kuàilè","ㄎㄨㄞˋ ㄌㄜˋ","","device-preview-only","NAER wordlist row 277",""
+"word:le-4:可樂","word","可樂","kělè","ㄎㄜˇ ㄌㄜˋ","","device-preview-only","NAER wordlist row 687",""
+"word:le-4:樂觀","word","樂觀","lèguān","ㄌㄜˋ ㄍㄨㄢ","","device-preview-only","NAER wordlist row 2254",""
+"sentence:2019_000209:快樂","sentence","但是，她自己快樂嗎？","","","","COCT-suitability-and-audio-review-pending","https://bcoct.naer.edu.tw/cqpweb/yl_2014_2024/",""
+"reading:yue-4","character","樂","yuè","ㄩㄝˋ","音樂","needs-clean-recording-and-listening-review","existing sample lesson",""
+"word:yue-4:音樂","word","音樂","yīnyuè","ㄧㄣ ㄩㄝˋ","","device-preview-only","NAER wordlist row 576",""
+"word:yue-4:音樂家","word","音樂家","yīnyuèjiā","ㄧㄣ ㄩㄝˋ ㄐㄧㄚ","","device-preview-only","NAER wordlist row 2595",""
+"word:yue-4:樂團","word","樂團","yuètuán","ㄩㄝˋ ㄊㄨㄢˊ","","device-preview-only","NAER wordlist row 2621",""
+"reading:chang-2","character","長","cháng","ㄔㄤˊ","長短","needs-clean-recording-and-listening-review","existing sample lesson",""
+"word:chang-2:長","word","長","cháng","ㄔㄤˊ","","device-preview-only","NAER wordlist row 199",""
+"word:chang-2:長短","word","長短","chángduǎn","ㄔㄤˊ ㄉㄨㄢˇ","","device-preview-only","NAER wordlist row 1988",""
+"reading:zhang-3","character","長","zhǎng","ㄓㄤˇ","長大","needs-clean-recording-and-listening-review","existing sample lesson",""
+"word:zhang-3:長大","word","長大","zhǎngdà","ㄓㄤˇ ㄉㄚˋ","","device-preview-only","NAER wordlist row 1011",""
+"word:zhang-3:家長","word","家長","jiāzhǎng","ㄐㄧㄚ ㄓㄤˇ","","device-preview-only","NAER wordlist row 1792",""
+"word:zhang-3:校長","word","校長","xiàozhǎng","ㄒㄧㄠˋ ㄓㄤˇ","","device-preview-only","NAER wordlist row 1817",""
+"reading:xing-2","character","行","xíng","ㄒㄧㄥˊ","旅行","needs-clean-recording-and-listening-review","existing sample lesson",""
+"word:xing-2:旅行","word","旅行","lǚxíng","ㄌㄩˇ ㄒㄧㄥˊ","","device-preview-only","NAER wordlist row 493",""
+"word:xing-2:行李","word","行李","xínglǐ","ㄒㄧㄥˊ ㄌㄧˇ","","device-preview-only","NAER wordlist row 982",""
+"word:xing-2:流行","word","流行","liúxíng","ㄌㄧㄡˊ ㄒㄧㄥˊ","","device-preview-only","NAER wordlist row 904",""
+"reading:hang-2","character","行","háng","ㄏㄤˊ","銀行","needs-clean-recording-and-listening-review","existing sample lesson",""
+"word:hang-2:銀行","word","銀行","yínháng","ㄧㄣˊ ㄏㄤˊ","","device-preview-only","NAER wordlist row 575",""
+"word:hang-2:行","word","行","háng","ㄏㄤˊ","","device-preview-only","NAER wordlist row 451",""
+"assessment:office-4e2d-3","assessment","","zhōng","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：zhōng
+ A. 其中 ✅B. 猜中"
+"assessment:office-4e00-3","assessment","","yí","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：yí
+ A. 一下 ✅ B. 一點 C. 第一"
+"assessment:office-4e0d-3","assessment","","bú","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：bú
+ A. 不客氣 ✅ B. 不好意思 C. 不同"
+"assessment:office-500b-3","assessment","","gè","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：gè
+ A. 個子 ✅ B. 一個"
+"assessment:office-5152-3","assessment","哪兒","nǎr","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：nǎr
+ A. 哪兒 ✅ B. 兒童 C. 兒子"
+"assessment:office-5206-3","assessment","","fèn","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：fèn
+ A. 部分 ✅ B. 十分"
+"assessment:office-5427-3","assessment","酒吧","jiǔbā","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：jiǔbā
+ A. 酒吧 ✅ B. 好吧"
+"assessment:office-548c-3","assessment","暖和","nuǎnhuo","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：nuǎnhuo
+ A. 和平 B. 暖和 ✅"
+"assessment:office-54e5-3","assessment","哥哥","gēge","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：gēge
+ A. 哥哥 ✅ B. 帥哥 C. 表哥"
+"assessment:office-54ea-3","assessment","哪裡","nǎlǐ","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：nǎlǐ
+ A. 哪裡 ✅ B. 天哪"
+"assessment:office-591a-3","assessment","多麼","duóme","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：duóme
+ A. 多麼 ✅ B. 許多"
+"assessment:office-592a-3","assessment","太陽","tàiyáng","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：tàiyáng
+ A. 太太 B. 太陽 ✅"
+"assessment:office-597d-3","assessment","","hào","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：hào
+ A. 好奇 ✅ B. 好像"
+"assessment:office-59b9-3","assessment","妹妹","mèimei","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：mèimei
+ A. 妹妹 ✅ B. 表妹 C. 弟妹"
+"assessment:office-59d0-3","assessment","小姐","xiǎojiě","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：xiǎojiě
+ A. 小姐 ✅ B. 姐姐"
+"assessment:office-5abd-3","assessment","舅媽","jiùmā","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：jiùmā
+ A. 媽媽 B. 舅媽 ✅ C. 姨媽"
+"assessment:office-5b50-3","assessment","子女","zǐnǚ","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：zǐnǚ
+ A. 兒子 B. 孩子 C. 子女 ✅"
+"assessment:office-5b57-3","assessment","字典","zìdiǎn","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：zìdiǎn
+ A. 字幕 B. 名字 C. 字典 ✅"
+"assessment:office-5c11-3","assessment","少女","shàonǚ","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：shàonǚ
+ A. 少女 ✅ B. 少數"
+"assessment:office-5f1f-3","assessment","弟弟","dìdi","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：dìdi
+ A. 弟弟 ✅ B. 弟妹"
+"assessment:office-661f-3","assessment","星星","xīngxing","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：xīngxing
+ A. 明星 B. 星星 ✅ C. 星期"
+"assessment:office-6709-3","assessment","","yǒushíhou","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：yǒushíhou
+ A. 有一點 B. 沒有 C. 有時候 ✅"
+"assessment:office-7238-3","assessment","爸爸","bàba","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：bàba
+ A. 媽媽 B. 爸爸 ✅ C. 伯伯"
+"assessment:office-7684-3","assessment","的確","díquè","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：díquè
+ A. 目的 B. 的確 ✅ C. 真的"
+"assessment:office-897f-3","assessment","西瓜","xīguā","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：xīguā
+ A. 西瓜 ✅ B. 東西"
+"assessment:office-89ba-3","assessment","感覺","gǎnjué","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：gǎnjué
+ A. 感覺 ✅ B. 睡覺"
+"assessment:office-8b1d-3","assessment","感謝","gǎnxiè","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：gǎnxiè
+ A. 感謝 ✅ B. 謝謝"
+"assessment:office-90fd-3","assessment","首都","shǒudū","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：shǒudū
+ A. 首都 ✅ B. 都是"
+"assessment:office-9ebc-3","assessment","怎麼","zěnme","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：zěnme
+ A. 怎麼 ✅ B. 這麼 C. 什麼"
+"assessment:office-5730-3","assessment","","de","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：de
+ A. 慢慢地 ✅ B. 地方"
+"assessment:office-5976-3","assessment","奶奶","nǎinai","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：nǎinai
+ A. 奶茶 B. 牛奶 C. 奶奶 ✅"
+"assessment:office-5f97-3","assessment","","dé","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：dé
+ A. 覺得 B. 記得 C. 得到 ✅"
+"assessment:office-6559-3","assessment","教室","jiàoshì","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：jiàoshì
+ A. 教書 B. 教室 ✅"
+"assessment:office-6703-3","assessment","","dāihuǐ","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：dāihuǐ
+ A. 待會 ✅ B. 社會"
+"assessment:office-670d-3","assessment","服務","fúwù","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：fúwù
+ A. 服務 ✅ B. 舒服"
+"assessment:office-6a02-3","assessment","樂團","yuètuán","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：yuètuán
+ A. 樂團 ✅ B. 樂觀"
+"assessment:office-6c23-3","assessment","冷氣","lěngqì","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：lěngqì
+ A. 冷氣 ✅ B. 運氣"
+"assessment:office-70ba-3","assessment","以為","yǐwéi","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：yǐwéi
+ A. 以為 ✅ B. 因為"
+"assessment:office-7a7a-3","assessment","空氣","kōngqì","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：kōngqì
+ A. 空氣 ✅ B. 有空"
+"assessment:office-9084-3","assessment","","huán","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：huán
+ A. 還是 B. 還書 ✅"
+"assessment:office-9577-3","assessment","長大","zhǎngdà","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：zhǎngdà
+ A. 長大 ✅ B. 長短"
+"assessment:office-982d-3","assessment","饅頭","mántou","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：mántou
+ A. 頭髮 B. 饅頭 ✅"
+"assessment:office-4e86-3","assessment","","le","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：le
+ A. 除了 ✅ B. 了解"
+"assessment:office-4fbf-3","assessment","","pián","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：pián
+ A. 便當 B. 隨便 C. 便宜 ✅"
+"assessment:office-5dee-3","assessment","郵差","yóuchāi","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：yóuchāi
+ A. 郵差 ✅ B. 時差"
+"assessment:office-61c9-3","assessment","適應","shìyìng","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：shìyìng
+ A. 應該 B. 適應 ✅"
+"assessment:office-7576-3","assessment","當作","dàngzuò","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：dàngzuò
+ A. 便當 B. 當作 ✅"
+"assessment:office-76f8-3","assessment","相片","xiàngpiàn","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：xiàngpiàn
+ A. 互相 B. 相片 ✅"
+"assessment:office-7a2e-3","assessment","種類","zhǒnglèi","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：zhǒnglèi
+ A. 種類 ✅ B. 種樹"
+"assessment:office-884c-3","assessment","行李","xínglǐ","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：xínglǐ
+ A. 銀行 B. 行李 ✅"
+"assessment:office-91cd-3","assessment","重新","chóngxīn","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：chóngxīn
+ A. 重新 ✅ B. 重要"
+"assessment:office-4f2f-3","assessment","伯伯","bóbo","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：bóbo
+ A. 伯父 B. 伯母 C. 伯伯 ✅"
+"assessment:office-723a-3","assessment","爺爺","yéye","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：yéye
+ A. 奶奶 B. 伯伯 C. 爺爺 ✅"
+"assessment:office-8655-3","assessment","到處","dàochù","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：dàochù
+ A. 到處 ✅ B. 處理"
+"assessment:office-5047-3","assessment","","jià","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：jià
+ A. 暑假 ✅ B. 假裝"
+"assessment:office-5319-3","assessment","鑰匙","yàoshi","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：yàoshi
+ A. 湯匙 B. 鑰匙 ✅"
+"assessment:office-53d4-3","assessment","叔叔","shúshu","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：shúshu
+ A. 舅舅 B. 叔叔 ✅ C. 伯伯"
+"assessment:office-59ca-3","assessment","","jiějie","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：jiějie
+ A. 姊姊 ✅ B. 妹妹 C. 弟弟"
+"assessment:office-80cc-3","assessment","背景","bèijǐng","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：bèijǐng
+ A. 背包 B. 背景 ✅"
+"assessment:office-5207-3","assessment","一切","yíqiè","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：yíqiè
+ A. 切水果 B. 切菜 C. 一切 ✅"
+"assessment:office-59d1-3","assessment","姑姑","gūgu","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：gūgu
+ A. 姑姑 ✅ B. 哥哥 C. 舅舅"
+"assessment:office-5a46-3","assessment","外婆","wàipó","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：wàipó
+ A. 外婆 ✅ B. 婆婆 C. 老婆"
+"assessment:office-6578-3","assessment","數學","shùxué","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：shùxué
+ A. 數錢 B. 數學 ✅"
+"assessment:office-8205-3","assessment","舅舅","jiùjiu","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit#gid=2098312416","🔊 播放：jiùjiu
+ A. 舅舅 ✅ B. 叔叔 C. 伯伯"
+"assessment:revisions-4e2d-3","assessment","","zhōng","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=1540295536","🔊 播放：zhōng
+A. 其中 ✅B. 猜中"
+"assessment:revisions-597d-4","assessment","正好","zhèng hǎo","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=1540295536","🔊 播放：zhèng hǎo
+A. 最好
+B. 正好 ✅
+C. 還好D. 幸好"
+"assessment:revisions-884c-4","assessment","","zì xíng chē","","","needs-exact-recording","https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=1540295536","播放音檔：zì xíng chē
+選：
+A. 不行
+B. 自行車
+C.人行道  
+"
+"assessment:starting-11","assessment","中間","zhōng jiān","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026","🔊 播放：zhōng jiān
+
+A. 中國
+B. 中午
+C. 中間 ✅
+D. 中文"
+"assessment:starting-12","assessment","舒服","shūfu","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026","🔊 播放：shūfu
+
+A. 服務
+B. 舒服 ✅
+C. 服裝
+D. 衣服"
+"assessment:starting-13","assessment","教室","jiào shì","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026","🔊 播放：jiào shì
+
+A. 教書
+B. 教室 ✅
+C. 教學
+D. 教"
+"assessment:starting-14","assessment","樂團","yuè tuán","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026","🔊 播放：yuè tuán
+
+A. 快樂
+B. 可樂
+C. 樂團 ✅
+D. 樂趣"
+"assessment:starting-15","assessment","背包","bēi bāo","","","device-preview-only-unvalidated","https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit#gid=884981026","🔊 播放：bēi bāo
+
+A. 背後
+B. 背景
+C. 背包 ✅
+D. 後背"
