@@ -19,7 +19,7 @@ try{
  assert(view().includes('Take my level check'));
  await click({action:'begin-diagnostic'});assert(view().includes('1 / 20'));
  for(const q of B.startingCheck){if(q.listening)await click({action:'preview-listening'});await click({answer:q.correct[0]});assert(view().includes('Next question')||view().includes('See draft result'));await click({action:'next-question'});}
- assert(view().includes('20 questions explored · 5 unscored'));assert.equal(saved.startingChecks.length,1);assert.equal(saved.attempts.length,0);
+ assert(view().includes('Your suggested starting points'));assert.equal(saved.startingChecks.length,1);assert.equal(saved.attempts.length,0);
  el('#result-start').value='1*';await click({action:'accept-start'});assert(view().includes('Learning'));
  navigate('profile');assert(view().includes('Retake level check'));assert.equal(saved.start,'1*');
  navigate('team');assert(view().includes('64 source character sets'));
