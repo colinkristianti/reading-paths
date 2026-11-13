@@ -114,7 +114,7 @@ document.addEventListener('click',async e=>{
  case'close-settings':player.stop();$('#settings').close();break;
  case'howto':go('howto');break;
  case'begin-diagnostic':state.howtoSeen=true;save();startQuiz('diagnostic');break;
- case'accept-start':{const a=draftSummary(quiz.outcomes.slice(0,10)),b=draftSummary(quiz.outcomes.slice(10,20)),lvl=x=>x.unscored?state.start:x.correct/x.scored>=.8?'2':x.correct/x.scored>=.5?'1*':'1';state.start=state.recommended=lvl(a);state.wordRecommended=lvl(b);state.onboarded=true;state.howtoSeen=true;state.learningMode='guided';save();quiz=null;go('path');break;}
+ case'accept-start':{const a=draftSummary(quiz.outcomes.slice(0,10)),b=draftSummary(quiz.outcomes.slice(10,20)),lvl=x=>x.unscored?state.start:x.correct/x.scored>=.8?'2':x.correct/x.scored>=.5?'1*':'1',suggested=lvl(a),chosen=$('#result-start')?.value;state.recommended=suggested;state.start=LEVELS.includes(chosen)?chosen:suggested;state.wordRecommended=lvl(b);state.onboarded=true;state.howtoSeen=true;state.learningMode='guided';save();quiz=null;go('path');break;}
  case'diagnostic':startQuiz('diagnostic');break;
  case'collection':go('learn');break;
  case'path':go('path');break;case'back-to-path':go('path');break;
