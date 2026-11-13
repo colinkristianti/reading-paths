@@ -1,6 +1,8 @@
 // Controller integration with a small DOM stub; this does not replace phone/browser visual QA.
 import assert from 'node:assert/strict';
 import{QUESTION_BANK as B}from'./dist/question-bank.mjs';
+import{CHARACTERS}from'./dist/content.mjs';
+import{slidesFor}from'./dist/journey.mjs';
 const names=['document','window','location','localStorage','addEventListener','scrollTo','fetch'];
 const original=Object.fromEntries(names.map(k=>[k,globalThis[k]]));
 try{
@@ -32,5 +34,6 @@ try{
  }
  assert(view().includes('Worksheet preview complete'));assert.equal(saved.teamAttempts.length,5);assert.equal(saved.teamHistory.length,1);assert.equal(saved.attempts.length,0);assert.equal(saved.quizHistory.length,0);assert.equal(saved.stagePasses.length,0);
  navigate('progress');assert(view().includes('0 practice answers'));assert(view().includes('5 responses'));
+ navigate('lesson/le');assert(view().includes('Let’s explore 樂.'));assert(view().includes('lè'));assert(view().includes('yuè'));assert(!view().includes('Notice the sound of 好'));assert(slidesFor(CHARACTERS.find(c=>c.id==='le')).some(s=>s.kind==='sort'));
  console.log('Controller flow passed: nickname → how-to → full 20-item check → suggested start → retake entry → five mixed-format draft items → separate history and unchanged learning metrics.');
 }finally{for(const[k,v]of Object.entries(original)){if(v===undefined)delete globalThis[k];else globalThis[k]=v;}}

@@ -1,29 +1,24 @@
-export function slidesFor(c){if(c.id==='hao')return[
- {id:'hao:intro',kind:'intro',reading:c.readings[0]},
- {id:'hao:hao3-listen',kind:'listen',readingIndex:0,reading:c.readings[0]},
- {id:'hao:hao3-meaning',kind:'meaning',readingIndex:0,reading:c.readings[0]},
- {id:'hao:hao3-speak',kind:'speak',readingIndex:0,reading:c.readings[0]},
- {id:'hao:hao3-write',kind:'write',readingIndex:0,reading:c.readings[0]},
- {id:'hao:hao3-vocab',kind:'vocab-preview',readingIndex:0,reading:c.readings[0]},
- {id:'hao:hao3-audio-check',kind:'audio-choice',readingIndex:0,reading:c.readings[0]},
- {id:'hao:hao3-word-a',kind:'word',readingIndex:0,reading:c.readings[0],word:c.readings[0].words.find(w=>w.text==='好像')},
- {id:'hao:hao3-word-b',kind:'word',readingIndex:0,reading:c.readings[0],word:c.readings[0].words.find(w=>w.text==='最好')},
- {id:'hao:hao3-sentence',kind:'sentence-pending',readingIndex:0,reading:c.readings[0]},
- {id:'hao:hao4-listen',kind:'listen',readingIndex:1,reading:c.readings[1]},
- {id:'hao:hao4-meaning',kind:'meaning',readingIndex:1,reading:c.readings[1]},
- {id:'hao:hao4-speak',kind:'speak',readingIndex:1,reading:c.readings[1]},
- {id:'hao:hao4-write',kind:'write',readingIndex:1,reading:c.readings[1]},
- {id:'hao:hao4-vocab',kind:'vocab-preview',readingIndex:1,reading:c.readings[1]},
- {id:'hao:hao4-audio-check',kind:'audio-choice',readingIndex:1,reading:c.readings[1]},
- {id:'hao:hao4-word-a',kind:'word',readingIndex:1,reading:c.readings[1],word:c.readings[1].words.find(w=>w.text==='愛好')},
- {id:'hao:hao4-word-b',kind:'word',readingIndex:1,reading:c.readings[1],word:c.readings[1].words.find(w=>w.text==='好奇')},
- {id:'hao:hao4-sentence',kind:'sentence-pending',readingIndex:1,reading:c.readings[1]},
- {id:'hao:mixed-review',kind:'sort',reading:c.readings[0]}
-];return c.readings.flatMap((r,readingIndex)=>[
- {id:`${r.id}:listen`,kind:'listen',readingIndex,reading:r},
- {id:`${r.id}:meaning`,kind:'meaning',readingIndex,reading:r},
- {id:`${r.id}:write`,kind:'write',readingIndex,reading:r},
- ...r.words.map((w,i)=>({id:`${r.id}:word:${i}`,kind:'word',readingIndex,reading:r,word:w})),
- ...(r.sentences.length?r.sentences.map((s,i)=>({id:`${r.id}:sentence:${i}`,kind:'sentence',readingIndex,reading:r,sentence:s})):[{id:`${r.id}:sentence:pending`,kind:'sentence-pending',readingIndex,reading:r}])]);}
-export function followingCharacter(characters,id,state,mode,isUnlocked){const index=characters.findIndex(c=>c.id===id);return characters.slice(index+1).find(c=>mode==='explore'||isUnlocked(state,c.level))||null;}
-export function resumeIndex(c,resume){const slides=slidesFor(c);if(resume?.characterId!==c.id)return 0;return Math.max(0,Math.min(Number.isInteger(resume.index)?resume.index:0,slides.length));}
+const practiceWords=reading=>reading.words.filter(word=>word.text.length>1).slice(0,2);
+const reviewedSentences=reading=>reading.sentences.filter(sentence=>(sentence.status??sentence.source?.status)==='approved');
+
+export function slidesFor(character){
+ const slides=[{id:`${character.id}:intro`,kind:'intro',reading:character.readings[0]}];
+ const canIdentifyAudio=character.readings.every(reading=>practiceWords(reading).length>0);
+ for(const[readingIndex,reading]of character.readings.entries()){
+  slides.push(
+   {id:`${reading.id}:listen`,kind:'listen',readingIndex,reading},
+   {id:`${reading.id}:meaning`,kind:'meaning',readingIndex,reading},
+   {id:`${reading.id}:speak`,kind:'speak',readingIndex,reading},
+   {id:`${reading.id}:write`,kind:'write',readingIndex,reading},
+   {id:`${reading.id}:vocab`,kind:'vocab-preview',readingIndex,reading}
+  );
+  if(canIdentifyAudio)slides.push({id:`${reading.id}:audio-check`,kind:'audio-choice',readingIndex,reading});
+  slides.push(...practiceWords(reading).map((word,index)=>({id:`${reading.id}:word:${index}`,kind:'word',readingIndex,reading,word})));
+  slides.push(...reviewedSentences(reading).map((sentence,index)=>({id:`${reading.id}:sentence:${index}`,kind:'sentence',readingIndex,reading,sentence})));
+ }
+ const pairs=character.readings.flatMap(reading=>practiceWords(reading).map(word=>[word.text,reading.id]));
+ if(new Set(pairs.map(([,readingId])=>readingId)).size>1)slides.push({id:`${character.id}:mixed-review`,kind:'sort',reading:character.readings[0],pairs});
+ return slides;
+}
+export function followingCharacter(characters,id,state,mode,isUnlocked){const index=characters.findIndex(character=>character.id===id);return characters.slice(index+1).find(character=>mode==='explore'||isUnlocked(state,character.level))||null;}
+export function resumeIndex(character,resume){const slides=slidesFor(character);if(resume?.characterId!==character.id)return 0;return Math.max(0,Math.min(Number.isInteger(resume.index)?resume.index:0,slides.length));}

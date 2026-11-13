@@ -19,11 +19,13 @@ assert.equal(recommend(5,6),'2');assert.equal(recommend(3,6),'1*');assert.equal(
 console.log('Learning flow checks passed: scope, five-question checks, review scheduling, shared progress, pass thresholds, unlocks, backup, and sample starting suggestions.');
 
 // Learning cards follow the guided, reading-by-reading journey; every word and sentence slot is reachable.
-for(const c of CHARACTERS){const slides=slidesFor(c),reachableWords=c.id==='hao'?4:c.readings.reduce((v,r)=>v+r.words.length,0);assert.equal(slides.filter(s=>s.kind==='word').length,reachableWords);assert.equal(slides.filter(s=>s.kind==='sentence'||s.kind==='sentence-pending').length,c.readings.reduce((v,r)=>v+(r.sentences.length||1),0));assert.equal(new Set(slides.map(s=>s.id)).size,slides.length);assert.equal(resumeIndex(c,{characterId:c.id,index:9999}),slides.length);}
+for(const c of CHARACTERS){const slides=slidesFor(c),reachableWords=c.readings.reduce((v,r)=>v+Math.min(2,r.words.filter(w=>w.text.length>1).length),0),reviewed=c.readings.reduce((v,r)=>v+r.sentences.filter(s=>(s.status??s.source?.status)==='approved').length,0);assert(slides.length<=20);assert.equal(slides.filter(s=>s.kind==='word').length,reachableWords);assert.equal(slides.filter(s=>s.kind==='sentence').length,reviewed);assert(!slides.some(s=>s.kind==='sentence-pending'));assert.equal(new Set(slides.map(s=>s.id)).size,slides.length);assert.equal(resumeIndex(c,{characterId:c.id,index:9999}),slides.length);}
 const haoSlides=slidesFor(CHARACTERS.find(c=>c.id==='hao'));
-assert.equal(haoSlides.length,20);assert.deepEqual(haoSlides.filter(s=>s.kind==='listen').map(s=>s.readingIndex),[0,1]);
+assert.equal(haoSlides.length,18);assert.deepEqual(haoSlides.filter(s=>s.kind==='listen').map(s=>s.readingIndex),[0,1]);
 for(const kind of ['meaning','speak','write','vocab-preview','audio-choice'])assert.equal(haoSlides.filter(s=>s.kind===kind).length,2);
 assert.equal(haoSlides.at(-1).kind,'sort');assert.equal(haoSlides.at(-1).id,'hao:mixed-review');
+const leSlides=slidesFor(CHARACTERS.find(c=>c.id==='le'));
+assert(leSlides.find(s=>s.kind==='intro'));assert.equal(leSlides.filter(s=>s.kind==='sort').length,1);assert.equal(leSlides.find(s=>s.kind==='sort').pairs.length,4);
 assert.equal(followingCharacter(CHARACTERS,'hao',fresh(),'guided',unlocked).id,'kan');
 assert.equal(followingCharacter(CHARACTERS,'kan',fresh(),'guided',unlocked),null);
 assert.equal(followingCharacter(CHARACTERS,'kan',fresh(),'explore',unlocked).id,'le');
