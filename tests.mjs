@@ -23,7 +23,7 @@ for(const c of CHARACTERS){const slides=slidesFor(c),reachableWords=c.id==='hao'
 const haoSlides=slidesFor(CHARACTERS.find(c=>c.id==='hao'));
 assert.equal(haoSlides.length,20);assert.deepEqual(haoSlides.filter(s=>s.kind==='listen').map(s=>s.readingIndex),[0,1]);
 for(const kind of ['meaning','speak','write','vocab-preview','audio-choice'])assert.equal(haoSlides.filter(s=>s.kind===kind).length,2);
-assert.equal(haoSlides.filter(s=>s.kind==='mixed-review').length,1);
+assert.equal(haoSlides.at(-1).kind,'sort');assert.equal(haoSlides.at(-1).id,'hao:mixed-review');
 assert.equal(followingCharacter(CHARACTERS,'hao',fresh(),'guided',unlocked).id,'kan');
 assert.equal(followingCharacter(CHARACTERS,'kan',fresh(),'guided',unlocked),null);
 assert.equal(followingCharacter(CHARACTERS,'kan',fresh(),'explore',unlocked).id,'le');
