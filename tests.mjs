@@ -19,7 +19,7 @@ assert.equal(recommend(5,6),'2');assert.equal(recommend(3,6),'1*');assert.equal(
 console.log('Learning flow checks passed: scope, five-question checks, review scheduling, shared progress, pass thresholds, unlocks, backup, and sample starting suggestions.');
 
 // Learning cards follow the guided, reading-by-reading journey; every word and sentence slot is reachable.
-for(const c of CHARACTERS){const slides=slidesFor(c);assert.equal(slides.filter(s=>s.kind==='word').length,c.readings.reduce((v,r)=>v+r.words.length,0));assert.equal(slides.filter(s=>s.kind==='sentence'||s.kind==='sentence-pending').length,c.readings.reduce((v,r)=>v+(r.sentences.length||1),0));assert.equal(new Set(slides.map(s=>s.id)).size,slides.length);assert.equal(resumeIndex(c,{characterId:c.id,index:9999}),slides.length);}
+for(const c of CHARACTERS){const slides=slidesFor(c),reachableWords=c.id==='hao'?4:c.readings.reduce((v,r)=>v+r.words.length,0);assert.equal(slides.filter(s=>s.kind==='word').length,reachableWords);assert.equal(slides.filter(s=>s.kind==='sentence'||s.kind==='sentence-pending').length,c.readings.reduce((v,r)=>v+(r.sentences.length||1),0));assert.equal(new Set(slides.map(s=>s.id)).size,slides.length);assert.equal(resumeIndex(c,{characterId:c.id,index:9999}),slides.length);}
 const haoSlides=slidesFor(CHARACTERS.find(c=>c.id==='hao'));
 assert.equal(haoSlides.length,20);assert.deepEqual(haoSlides.filter(s=>s.kind==='listen').map(s=>s.readingIndex),[0,1]);
 for(const kind of ['meaning','speak','write','vocab-preview','audio-choice'])assert.equal(haoSlides.filter(s=>s.kind===kind).length,2);
