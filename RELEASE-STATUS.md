@@ -1,9 +1,21 @@
-# Release status — 2026-11-05
+# Release status — 2026-11-13
 
-Public site remains v2 at https://colinkristianti.github.io/reading-paths/ (main f92ceba40c5cf26cdcbad3235c1eb92df3174001).
+v4 team preview is prepared for GitHub Pages. It updates onboarding, placement-gated navigation, level results, the frequency-based character path, and the guided 好 sample lesson. The v3 version was previously published on 2026-11-05.
 
-v3 local implementation: four menus, 20 original starting items, 320 original quiz items and 15 separate revisions, free exact-Taiwan device speech with visible character word cues, dictionary narration excluded. No new AI audio generated.
+## Trial scope
 
-Automated source/domain/audio/controller checks passed. Full phone visual QA and human pronunciation review pending. Native Chrome automation reloaded blank and then timed out. GitHub write integration previously returned 403; no v3 commit or deployment has been made.
+- First visit: required nickname, short usage guide, then 20-question level check.
+- After the check: suggested level results and a circle-node learning path.
+- Guided lesson: 好, organized as hǎo3 character/word/sentence practice, then hào4 practice and mixed review.
+- Progress stays in local browser storage on the same device. There is no account, cloud synchronization, or backup transfer.
 
-See V3-REVIEW.md for manual upload instructions. Existing Pages workflow still works with the replacement network-free prepare-audio.mjs.
+## Known limits
+
+- This is a prototype for team feedback, not a complete or validated course.
+- Path ordering comes from a local TBCL/corpus-frequency candidate dataset and still needs content review.
+- Only five character lessons have demonstration content; other nodes are placeholders/previews.
+- Audio uses device/browser speech. It has not been replaced with OpenAI TTS or fully human-reviewed.
+- Speaking is prompted but not recorded or scored.
+- Full phone, accessibility, and pronunciation review remain pending.
+
+The Pages workflow runs the repository's automated logic and audio-manifest checks before deployment.

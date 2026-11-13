@@ -1,5 +1,5 @@
 export const LEVELS=['1','1*','2','2*','3','3*'];
-export const fresh=()=>({version:1,name:'Learner',onboarded:false,recommended:'1',start:'1',preferences:{size:'medium',notation:'pinyin',motion:'system',speed:'normal'},lessons:{},mistakes:{},attempts:[],stagePasses:[],quizHistory:[],resume:null,viewed:{},learningMode:'guided',startingChecks:[],teamAttempts:[],teamHistory:[]});
+export const fresh=()=>({version:1,name:'',onboarded:false,howtoSeen:false,recommended:'1',start:'1',preferences:{size:'medium',notation:'pinyin',motion:'system',speed:'normal'},lessons:{},mistakes:{},attempts:[],stagePasses:[],quizHistory:[],resume:null,viewed:{},learningMode:'guided',startingChecks:[],teamAttempts:[],teamHistory:[]});
 export function unlocked(s,level){let i=LEVELS.indexOf(level);return i>=0&&(i<=LEVELS.indexOf(s.start)||s.stagePasses.includes(level)||s.stagePasses.includes(LEVELS[i-1]));}
 export function record(s,q,correct,mode='lesson',now=Date.now()){
  const n=structuredClone(s);n.attempts.push({questionId:q.id,characterId:q.characterId,readingId:q.readingId,correct,mode,at:now});

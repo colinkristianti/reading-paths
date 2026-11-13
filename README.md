@@ -1,27 +1,25 @@
-# Reading Paths
+# One Character, Many Sounds
 
-A mobile-first Traditional Chinese heteronym learning prototype for adult learners whose first language is English. Built as static ES modules for GitHub Pages. No paid API, backend account or build dependency is required.
+A mobile-first Traditional Chinese heteronym learning prototype for adult learners whose first language is English. The v4 GitHub Pages release is a team trial of the guided onboarding, level check, character path, and the sample lesson for 好.
 
-v3 is a local update; the public website is still v2. See [V3-REVIEW.md](V3-REVIEW.md) for scope, limits and upload instructions, and [AUDIO-SETUP.md](AUDIO-SETUP.md) for free device speech and future recording preparation.
+## Try the flow
 
-- Learn → character, word, sentence cards; guided unlocks and Free explore.
-- Review → missed learning connections, with a separate draft-bank review entry.
-- Progress → normal practice accuracy, quiz averages and completed character checks.
-- Profile → starting check / retake, preferred name and stage, display and audio settings, backup export / import.
-- Team question bank → 320 original questions, 15 separate revisions; starting check → 20 original questions. All remain unvalidated drafts. Seven known problematic/missing keys and written listening previews are unscored. Draft records never alter normal metrics or unlocks.
+1. Enter a nickname and read the short guide.
+2. Complete the 20-question placement check. It suggests a starting point; it is not an official TBCL certification.
+3. Explore the character path and try the guided lesson.
 
-The five sample lessons and two COCT sentence candidates remain unchanged; importing the complete question bank does not create a complete course. Existing `reading-paths-v1` progress migrates without clearing records. Storage is local to this browser; no cloud synchronization.
+The app saves a nickname and learning progress in the current browser on the current device. There is no account, cloud sync, or backup transfer. Clearing browser storage may remove saved progress.
 
-## Checks
+## Scope and content status
 
-Run `node tests.mjs`, then `node prepare-audio.mjs`. The latter validates optional approved clean recordings without downloading dictionary narration or calling a speech provider. Run `node build-preview.mjs` to write a standalone review HTML file into the parent output directory. Controller tests use a small DOM stub and are not a substitute for browser/phone QA.
+This is a team preview, not a complete course. The guided lesson for 好 is a staged experience prototype; lesson content and word/sentence examples still require editorial review. The other path nodes are previews and should not be treated as completed lessons. Character ordering uses a local TBCL/corpus-frequency candidate file and is subject to content review.
 
-Serve `dist` over HTTP for production testing, or use the generated review file. Commit source files to the existing GitHub repository. The existing Pages workflow runs tests and deploys `dist` from main.
+Audio currently uses the available device/browser voice and has not been replaced with OpenAI TTS. Pronunciation quality can vary by device. The app does not record or score speaking practice.
 
-## Sources
+## Project files
 
-Original quiz: https://docs.google.com/spreadsheets/d/1Hf69uYxFku7LTxb99fbIrpBX8lhj1Ygs/edit?gid=2098312416
+- `dist/` contains the GitHub Pages site.
+- `tests.mjs` and `prepare-audio.mjs` are run by the Pages workflow on pushes to `main`.
+- `CONTENT-CONTRACT.md` documents the lesson data format and source rules.
 
-Starting check and revisions: https://docs.google.com/spreadsheets/d/1aT3f-NLhmql6XZyL2HadYzCgVe3eVXflWZ8qRaxvV68/edit
-
-Each imported question retains its source row, original wording, key, fingerprint and review notes. Team question sentences are not COCT quotations. Dictionary audio is retained with its original attribution in the archive and excluded from learner playback.
+The Pages workflow deploys `dist` from `main` after its automated checks pass.
