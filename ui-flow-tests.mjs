@@ -5,7 +5,7 @@ const names=['document','window','location','localStorage','addEventListener','s
 const original=Object.fromEntries(names.map(k=>[k,globalThis[k]]));
 try{
  const els=new Map(),listeners={};let saved=null,hash='#/';
- const el=id=>{if(!els.has(id))els.set(id,{innerHTML:'',dataset:{},value:'1',focus(){},addEventListener(){},classList:{add(){},remove(){}}});return els.get(id);};
+ const el=id=>{if(!els.has(id))els.set(id,{innerHTML:'',dataset:{},value:'1',width:1,height:1,focus(){},addEventListener(){},getContext(){return{lineWidth:0,lineCap:'',strokeStyle:'',beginPath(){},moveTo(){},lineTo(){},stroke(){}};},getBoundingClientRect(){return{left:0,top:0,width:1,height:1};},setPointerCapture(){},classList:{add(){},remove(){}}});return els.get(id);};
  globalThis.document={documentElement:{dataset:{}},body:{dataset:{}},querySelector:el,querySelectorAll:()=>[],addEventListener:(n,f)=>listeners['doc:'+n]=f};
  globalThis.window=globalThis;globalThis.scrollTo=()=>{};globalThis.addEventListener=(n,f)=>listeners[n]=f;
  globalThis.location={get hash(){return hash;},set hash(v){hash=v.startsWith('#')?v:'#'+v;}};
