@@ -20,7 +20,7 @@ try{
  await click({action:'begin-diagnostic'});assert(view().includes('1 / 20'));
  for(const q of B.startingCheck){if(q.listening)await click({action:'preview-listening'});await click({answer:q.correct[0]});assert(view().includes('Next question')||view().includes('See draft result'));await click({action:'next-question'});}
  assert(view().includes('Your suggested starting points'));assert.equal(saved.startingChecks.length,1);assert.equal(saved.attempts.length,0);
- el('#result-start').value='1*';await click({action:'accept-start'});assert(view().includes('Learning'));
+ el('#result-start').value='1*';await click({action:'accept-start'});assert(view().includes('A path made for you'));
  navigate('profile');assert(view().includes('Retake level check'));assert.equal(saved.start,'1*');
  navigate('team');assert(view().includes('64 source character sets'));
  const group=B.fullBank.find(g=>g.character==='好');await click({teamGroup:group.id});
